@@ -1,0 +1,44 @@
+body {
+  font-family: "EB Garamond", serif;
+}
+.big-btn {
+  background-color: #b68c5a;
+}
+/* banner section style */
+.banner-section {
+  background: url("./images/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  min-height: calc(100vh - 120px);
+  /* background: linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%); */
+}
+.banner-title {
+  font-size: 72px;
+}
+.banner-text {
+  font-size: 16px;
+  color: #e7e7e7;
+}
+.small-btn {
+  background-color: #b68c5a;
+}
+/* card section style */
+.card-heading-title {
+  font-size: 40px;
+}
+.card-descrip {
+  font-size: 16px;
+  color: #707070;
+}
+.card {
+  /* width: 400px;
+  height: 500px; */
+}
+.card-single {
+  padding: 0;
+}
+.card-two {
+  background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+  border: 1px solid #e7e7e7;
+}
