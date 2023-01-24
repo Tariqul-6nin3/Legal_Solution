@@ -79,3 +79,28 @@ textarea {
   background-color: #f3f3f3;
   border: 0;
 }
+@media only screen and (max-width: 480px) {
+  .banner-title {
+    font-size: 20px;
+  }
+  .banner-text {
+    font-size: 8px;
+    color: #e7e7e7;
+    margin-bottom: 0;
+  }
+  .corou-container {
+    top: -5%;
+    left: 15%;
+  }
+  .slide-descrip {
+    margin-top: 0;
+    font-size: 8px;
+    color: #f3f3f3;
+  }
+  .faq-image {
+    width: 50%;
+  }
+  .form-section {
+    margin-top: 15px;
+  }
+}
