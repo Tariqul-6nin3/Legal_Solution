@@ -31,14 +31,34 @@ body {
   font-size: 16px;
   color: #707070;
 }
-.card {
-  /* width: 400px;
-  height: 500px; */
-}
-.card-single {
-  padding: 0;
-}
 .card-two {
   background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
   border: 1px solid #e7e7e7;
+}
+/* corousel section styles */
+.carousel-title {
+  font-size: 40px;
+}
+.carousel-descrip,
+.faq-descrip {
+  font-size: 16px;
+  color: #707070;
+}
+.slide-title,
+.slide-descrip {
+  font-size: 16px;
+  color: #f3f3f3;
+}
+.corou-container {
+  top: 22%;
+  left: 15%;
+}
+/* faq styles */
+.faq-title {
+  font-size: 40px;
+}
+.accordion-item {
+  background-color: #f3f3f3;
+}
+.faq-descrip {
 }
